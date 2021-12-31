@@ -12,29 +12,7 @@
     <title>Projekt</title>
 </head>
 <body>
-<?php
-   $agent = "X".$_SERVER['HTTP_USER_AGENT'];
-    
-   $system = array('Windows 2000' => 'NT 5.0', 'Windows XP' => 'NT 5.1','Windows Vista' => 'NT 6.0', 'Windows 7' => 'NT 6.1',
-   'Windows 8' => 'NT 6.2', 'Windows 8.1' => 'NT 6.3', 'Windows 10' => 'NT 10','Windows 11' => 'NT 10.0', 'Linux' => 'Linux', 'iPhone' => 'iphone' , 'Android' => 'android');
-   
-   $przegladarka = array('Internet Explorer' => 'MSIE', 'Mozilla Firefox' => 'Firefox','Opera' => 'Opera', 'Chrome' => 'Chrome', 'Edge' => 'Edge');
-   
-   foreach ($system as $nazwa => $id)
-       if (strpos($agent, $id)) $system = $nazwa;
-   
-   foreach ($przegladarka as $nazwa => $id)
-       if (strpos($agent, $id)) $przegladarka = $nazwa;
-   
-   
-   if($system=='Android' or $system=='iPhone')
-   {
-        header('Location:m_index.php');
-   }
-   
-  
-   
-?>
+
  <div class="menu">
 
  <div class="uchwyt">
