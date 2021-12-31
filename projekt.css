@@ -1,0 +1,381 @@
+
+
+
+
+
+html, body{
+   
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Verdana;
+    background-color: white;
+
+}    
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: rgb(36, 200, 255);
+      color:brown ;
+    }
+  }
+
+.baner_none{
+    display: none;
+}
+.baner{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 199, 44);
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.uchwyt{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.menu{
+    display: none;
+}
+
+.menu_m{
+    display: block;
+    position: fixed;
+    background-color: rgb(255, 199, 44);
+    width: 100vw;
+    margin: auto;
+    height: 100vh;
+    color: white;
+}
+
+.pogo{
+    width: 40%;
+    height: 30%;
+    margin-left: auto;
+    padding-top: 3%;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+#opcje{
+    width: 100%;
+    height: 100%;
+    padding-top:30% ;
+}
+.opt {
+
+    margin-top: 5%;
+    padding: 3%;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    font-size: 28px;
+}
+ .opt:hover {
+   
+    color: whitesmoke;
+    border-left: 2px solid black ;
+    transition-duration: 600ms;
+    transform: scale(1.1);
+}
+
+.iks{
+    width: 10%;
+    height: 20%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.iks img{
+    width: 60%;
+    height: 60%;
+}
+
+
+#box3{
+    display: flex;
+    text-align: center;
+    margin:auto;
+    width: 40%;
+    height: 100%;
+}
+#socialmedia{
+   
+    width: 100%;
+    background-color: rgb(207, 152, 0);
+    height: 12%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ikona{
+    padding-top:12% ;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+
+.ikona img{
+    width: 50%;
+    height: 40%;
+}
+
+.none{
+    display: none;
+}
+
+.logo{
+    width: 40%;
+    height: 30%;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size:25px ;
+    margin-left: auto;
+    padding-top: 3%;
+    margin-bottom: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.logo img{
+    margin-top:1%;
+    width: 70%;
+    height: 60%;
+    
+}
+
+.none_burger{
+    display: none;
+}
+
+
+
+.element_burger{
+    width: 10%;
+    height: 20%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.element_burger img{
+    width: 60%;
+    height: 60%;
+}
+
+
+
+#napis2{
+    font-size: 35px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    color: #394a58;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+#napis2 a{
+    color: #055043;
+    text-decoration: none;
+    position: absolute;
+    margin: auto;
+    top:40%;
+    left: 30%;
+}
+#napis2 a:visited{
+    color: #395853;
+
+}
+
+
+
+#home{
+    width: 50%;
+    height: 20%;
+}
+
+#home img{
+    width: 40%;
+    height: 40%;
+   padding-top:25%;
+}
+
+#napis{
+    font-size: 33px;
+    font-family:  'century gothic';
+    font-weight: bold;
+    color: #000000;
+    text-align: right;
+    margin: 10% 5% 0 0;
+}
+#napis span{
+    color: #c38f00;
+}
+
+#grafika{
+    width: 100%;
+    height: 70vh;
+    line-height: 5vh;
+    background-color: rgb(255, 199, 44);
+    margin: auto;
+    color: white;
+    background-image: url('pizza_tlo.jpg');
+    
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top:20% ;
+}
+#opcje a{
+    color: white;
+}
+#opcje a:visited{
+    color: white;
+}
+
+#opcja1{
+    border: 3px solid rgb(255, 199, 44);
+    border-radius: 18px;
+    width: 40%;
+    padding: 2%;
+    letter-spacing: 4px;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 10%;
+    color: black;
+}
+
+#opcja1:hover{
+    background-color:  rgb(255, 199, 44);
+    color:white
+}
+
+#opcja2{
+    background-color:  rgb(255, 199, 44); 
+    border: 3px solid rgb(255, 199, 44);
+    border-radius: 18px;
+    width: 40%;
+    padding: 2%;
+    letter-spacing: 4px;
+    margin: auto;
+    font-weight: bold;
+    color:white
+
+}
+#opcja2:hover{
+    color: black;
+    background-color: initial;
+}
+
+a{
+    text-decoration: none;
+}
+#opcja1 a:visited{
+    color: black;
+}
+
+#opcja2 a:visited{
+    color: white;
+}
+.link{
+    width: 40%;
+    text-align: center;
+    line-height: 20px;
+    margin:auto;
+    margin-top: 20px;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#grafika a{
+    text-decoration: none;
+}
+
+#arrow1{
+    width: 30%;
+    height: 30%;
+    padding-right: 50%;
+    padding-top: 20%;
+}
+
+#arrow1 img{
+    width: 60%;
+    height: 60%;
+   
+}
+
+#arrow2{
+    width: 30%;
+    height: 30%;
+    padding-bottom: 20%;
+
+}
+
+#arrow2 img{
+    width: 60%;
+    height: 60%;
+   
+}
+
+#stopka{
+    padding: 10%;
+    background-color: rgb(36, 36, 36);
+    color:white;
+    
+    height: 10vh;
+}
+
+#box5{
+    display: flex;
+   
+}
+#tele{
+    margin-right: 20%;
+}
+#tele span{
+    color: rgb(255, 199, 44);
+    font-weight: bold;
+}
+
+#mail span{
+    color: rgb(255, 199, 44);
+    font-weight: bold;
+}
+
+
+.okno{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 65vh;
+    margin:auto;
+    text-align: center;
+    top:15%;
+    left: 5%;
+    right: 5%;
+    border-radius: 4px;
+}
+
+.okno_m{
+    display: none;
+    
+}
+
+
